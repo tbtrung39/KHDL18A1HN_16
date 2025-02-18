@@ -1,0 +1,6 @@
+a=float(input("Nhap so thuc a:")) 
+b=float(input("Nhap so thuc b:")) 
+print("Tong cua hai so thuc",a,",",b,"vua nhap = %0.2f"%(a+b)) 
+print("Hieu cua hai so thuc",a,",",b,"vua nhap = %0.2f"%(a-b)) 
+print("Tich cua hai so thuc",a,",",b,"vua nhap = %0.2f"%(a*b)) 
+print("Thuong cua hai so thuc",a,",",b,"vua nhap = %0.2f"%(a/b))

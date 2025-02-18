@@ -1,0 +1,7 @@
+x, y, z=map(float,input("Nhap vao mot toa do trong khong gian: ").split()) 
+dx_oxy=(x,y,-z) 
+dx_oxz=(x,-y,z) 
+dx_oyz=(-x,y,z) 
+print("Diem doi xung qua mat phang Oxy: ",dx_oxy) 
+print("Diem doi xung qua mat phang Oxz: ",dx_oxz) 
+print("Diem doi xung qua mat phang Oyz: ",dx_oyz) 
