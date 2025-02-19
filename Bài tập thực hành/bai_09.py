@@ -1,0 +1,7 @@
+x,y,z = map(float,input('Nhập tọa đọ x,y,z :').split())
+doi_xung_Oxy=(x,y,-z)
+doi_xung_Oxz=(x,-y,z)
+doi_xung_Oyz=(-x,y,z)
+print('Tọa đọ điểm đối xứng qua mặt Oxy: ',doi_xung_Oxy)
+print('Tọa đọ điểm đối xứng qua mặt Oxz: ',doi_xung_Oxz)
+print('Tọa đọ điểm đối xứng qua mặt Oyz: ',doi_xung_Oyz) 
