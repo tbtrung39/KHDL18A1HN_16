@@ -1,0 +1,10 @@
+x = float(input("Nhập tọa độ x: "))
+y = float(input("Nhập tọa độ y: "))
+z = float(input("Nhập tọa độ z: "))
+doi_xung_Oxy = (x, y, -z)
+doi_xung_Oxz = (x, -y, z)
+doi_xung_Oyz = (-x, y, z)
+print("Tọa độ đối xứng qua mặt phẳng Oxy là:", doi_xung_Oxy)
+print("Tọa độ đối xứng qua mặt phẳng Oxz là:",doi_xung_Oxz)
+print("Tọa độ đối xứng qua mặt phẳng Oyz là:", doi_xung_Oyz)
+
