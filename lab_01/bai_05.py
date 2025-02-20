@@ -1,0 +1,5 @@
+so_chieu = int(input("Nhập số chiều của vector: "))
+vector_a = list(map(float, input("Nhập các phần tử của vector a: ").split()))
+vector_b = list(map(float, input("Nhập các phần tử của vector b: ").split()))
+tich_vo_huong = sum(x * y for x, y in zip(vector_a, vector_b))
+print(f"Tích vô hướng của hai vector là: {tich_vo_huong}")
