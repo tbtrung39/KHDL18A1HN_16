@@ -24,4 +24,4 @@ elif nam == 11:
 elif nam == 12:
     print("12: December")
 else :
-    print("Nhập sia vui lòng nhập lại"
+    print("Nhập sia vui lòng nhập lại")
