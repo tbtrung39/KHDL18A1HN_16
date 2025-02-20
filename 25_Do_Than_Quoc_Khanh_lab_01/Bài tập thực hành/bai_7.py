@@ -1,0 +1,6 @@
+a = float(input("Nhập hệ số a: ")) 
+b = float(input("Nhập hệ số b: ")) 
+c = float(input("Nhập hệ số c: "))      
+dinh_x = round(-b / (2 * a), 2) 
+dinh_y = round((4 * a * c - b**2) / (4 * a), 2)     
+print(f"\nĐỉnh của phương trình bậc hai: ({dinh_x}, {dinh_y})")
