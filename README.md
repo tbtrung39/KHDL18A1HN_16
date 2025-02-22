@@ -52,7 +52,9 @@ B3: Sau khi tạo nhánh mới, tạo một folder chứa tên lab mình đang t
 B4: Sau khi hoàn thành bài tập, thực hiện `add` thay đổi, `commit` rồi push lên đúng nhánh đang thực hiện. Sử dụng lệnh sau:
 
 ```
-git add .
+
+
+.
 git commit -m "ghi những gì mình đã thực hiện"
 git push origin <STT_họ và tên/lab đang thực hiện>
 ```
