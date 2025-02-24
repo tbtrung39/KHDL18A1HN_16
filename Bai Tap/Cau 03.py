@@ -1,9 +1,0 @@
-Pi = 3.14 
-r = float(input("nhập bán kính :")) 
-h = float(input("nhập chiều cao :")) 
-Sxq = 2*Pi*r*h 
-Stp = 2*Pi*r*(r+h) 
-V = Pi*(r**2)*h 
-print("Sxq = ",Sxq) 
-print("Stp = ",Stp) 
-print("v =",V) 

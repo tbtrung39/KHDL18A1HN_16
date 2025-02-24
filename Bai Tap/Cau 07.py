@@ -1,6 +1,0 @@
-a = float(input("Nhập giá trị a: "))   
-b = float(input("Nhập giá trị b: "))   
-c = float(input("Nhập giá trị c: "))   
-x = -b / (2 * a)   
-y = - (b**2 - 4*a*c) / (4*a)    
-print(f"Tọa độ đỉnh của parabol là: ({x:.2f}, {y:.2f})") 
