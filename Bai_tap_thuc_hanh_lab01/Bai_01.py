@@ -1,0 +1,6 @@
+ma_sv = int(input("Nhập mã sinh viên: "))
+ho_ten = input("Nhập họ và tên: ")
+que_quan = input("Nhập quê quán: ")
+nam_sinh = int(input("Nhập năm sinh: "))
+dtb = float(input("Nhập điểm trung bình: "))
+print(ma_sv,ho_ten,que_quan,nam_sinh,dtb)
