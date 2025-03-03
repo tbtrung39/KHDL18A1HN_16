@@ -1,0 +1,101 @@
+#bài 1
+msv = input("nhập mã sinh viên :") 
+ht = input("nhập họ tên sinh viên :") 
+qq = input("nhập quê quán sinh viên :") 
+ns = input("nhập năm sinh sinh viên :") 
+dtb = input("nhập điểm trung bình của sinh viên:") 
+print("\n Thông tin sinh viên") 
+print("mã số sinh viên là",msv) 
+print("họ tên sinh viên là",ht) 
+print("quê quán sinh viên ",qq) 
+print("năm sinh: ",ns) 
+print("điểm trung bình :",dtb) 
+#bài 2
+s = int(input("Nhập số giây: "))  
+m = int(input("Nhập số phút: "))  
+h = int(input("Nhập số giờ: "))  
+d = int(input("Nhập số ngày: "))  
+print(f"{d} ngày, {h} giờ, {m} phút, {s} giây")
+#bài 3 
+Pi = 3.14 
+r = float(input("nhập bán kính :")) 
+h = float(input("nhập chiều cao :")) 
+Sxq = 2*Pi*r*h 
+Stp = 2*Pi*r*(r+h) 
+V = Pi*(r**2)*h 
+print("Sxq = ",Sxq) 
+print("Stp = ",Stp) 
+print("v =",V) 
+#bài 4
+import math  
+x = float(input("Nhập giá trị của x: "))
+f_x = (-x + math.sqrt(x**2 + 4)) / math.sqrt(7 * x**4 + 1) 
+print(f"Giá trị của f({x}) là: {f_x:.2f}")
+#bài 5 
+a1 = float(input("Nhập a1: "))   
+a2 = float(input("Nhập a2: "))   
+b1 = float(input("Nhập b1: "))   
+b2 = float(input("Nhập b2: "))    
+tich_vo_huong = a1*b1 + a2*b2   
+print("Tích vô hướng là:", tich_vo_huong) 
+#bài 6 
+U = 220 
+I = 2.7
+t = int(input("Nhập thời gian sử dụng (giây): "))
+gia_dien = 7000
+P = U * I 
+E = (P * t) / 3600000
+tien_dien = E * gia_dien
+print("Tiền điện phải trả là:", tien_dien, "đồng")
+#bài 7 
+a = float(input("Nhập giá trị a: "))   
+b = float(input("Nhập giá trị b: "))   
+c = float(input("Nhập giá trị c: "))   
+x = -b / (2 * a)   
+y = - (b**2 - 4*a*c) / (4*a)    
+print(f"Tọa độ đỉnh của parabol là: ({x:.2f}, {y:.2f})") 
+#bài 8
+x_A = float(input("Nhập tọa độ x của đỉnh A: "))
+y_A = float(input("Nhập tọa độ y của đỉnh A: "))
+x_B = float(input("Nhập tọa độ x của đỉnh B: "))
+y_B = float(input("Nhập tọa độ y của đỉnh B: "))
+x_C = float(input("Nhập tọa độ x của đỉnh C: "))
+y_C = float(input("Nhập tọa độ y của đỉnh C: "))
+x_G = (x_A + x_B + x_C) / 3
+y_G = (y_A + y_B + y_C) / 3
+print("Tọa độ trọng tâm của tam giác là: ({:.2f}, {:.2f})".format(x_G, y_G))
+#bài 9 
+x = float(input("Nhập tọa độ x: "))   
+y = float(input("Nhập tọa độ y: "))   
+z = float(input("Nhập tọa độ z: "))   
+x_oxy = x   
+y_oxy = y   
+z_oxy = -z   
+print(f"Đối xứng qua Oxy: ({x_oxy}, {y_oxy}, {z_oxy})")   
+x_oxz = x   
+y_oxz = -y   
+z_oxz = z   
+print(f"Đối xứng qua Oxz: ({x_oxz}, {y_oxz}, {z_oxz})")   
+x_oyz = -x   
+y_oyz = y   
+z_oyz = z   
+print(f"Đối xứng qua Oyz: ({x_oyz}, {y_oyz}, {z_oyz})") 
+#bài 10
+import math   
+x = float(input("Nhập vào giá trị x: "))   
+log4_x = math.log(x, 4) 
+log_x_2 = math.log(2, x)  
+f_x = log4_x + log_x_2  
+f_x = round(f_x, 2)    
+print("Giá trị của f(x) là:", f_x)
+#bài 11 
+n = int(input("Nhập số lần tung (n): "))     
+xac_suat = 1 - (215/216)**n    
+print(f"Xác suất là: {round(xac_suat, 2)}")
+#bài 12
+import math    
+a = float(input("Nhập vào vận tốc a (m/s): "))  
+t = float(input("Nhập vào thời gian t (giây): "))  
+v_t = -t * math.log(5, 4) + a**4  
+v_t = round(v_t, 2)  
+print("Giá trị của v(t) là:", v_t)
