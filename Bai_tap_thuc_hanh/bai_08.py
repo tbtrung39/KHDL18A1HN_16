@@ -1,0 +1,5 @@
+Str = input("Nhập đoạn văn: ")
+word = input("Nhập từ đơn cần tìm: ")
+words_list = Str.split()
+count = words_list.count(word)
+print(f"Từ '{word}' xuất hiện {count} lần trong đoạn văn.")
