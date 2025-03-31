@@ -1,0 +1,4 @@
+import random
+numbers = [x for x in range(0, 201) if x % 5 == 0 and x % 7 == 0]
+random_num = random.choice(numbers)
+print("Số ngẫu nhiên chia hết cho 5 và 7:", random_num)
