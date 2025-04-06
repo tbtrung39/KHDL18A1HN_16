@@ -1,0 +1,19 @@
+n = int(input("Nhập số n: "))
+count = 0
+num = 2
+while count < n:
+    is_prime = True
+    if num <= 1:
+        is_prime = False
+    else:
+        i = 2
+        while i * i <= num:
+            if num % i == 0:
+                is_prime = False
+                break
+            i += 1
+    if is_prime:
+        print(num, end=" ")
+        count += 1
+    num += 1
+print()
