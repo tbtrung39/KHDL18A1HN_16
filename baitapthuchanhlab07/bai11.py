@@ -1,0 +1,12 @@
+c_plus_plus_str = input("Nhập danh sách số thứ tự sinh viên thi C++ (cách nhau bởi dấu cách): ")
+c_plus_plus = set(c_plus_plus_str.split())
+java_str = input("Nhập danh sách số thứ tự sinh viên thi Java (cách nhau bởi dấu cách): ")
+java = set(java_str.split())
+python_str = input("Nhập danh sách số thứ tự sinh viên thi Python (cách nhau bởi dấu cách): ")
+python = set(python_str.split())
+chi_thi_mot_ngon_ngu = (c_plus_plus - java - python) | (java - c_plus_plus - python) | (python - c_plus_plus - java)
+thi_hai_ngon_ngu = (c_plus_plus & java - python) | (c_plus_plus & python - java) | (java & python - c_plus_plus)
+thi_ba_ngon_ngu = c_plus_plus & java & python
+print("Sinh viên chỉ thi một ngôn ngữ:", chi_thi_mot_ngon_ngu)
+print("Sinh viên thi hai ngôn ngữ:", thi_hai_ngon_ngu)
+print("Sinh viên thi ba ngôn ngữ:", thi_ba_ngon_ngu)

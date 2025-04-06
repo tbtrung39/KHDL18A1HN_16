@@ -1,0 +1,8 @@
+ky_tu_str_a = input("Nhập các ký tự chữ và số cho tập hợp A (cách nhau bởi dấu cách): ")
+tap_hop_a_ky_tu = set(ky_tu_str_a.split())
+ky_tu_str_b = input("Nhập các ký tự chữ và số cho tập hợp B (cách nhau bởi dấu cách): ")
+tap_hop_b_ky_tu = set(ky_tu_str_b.split())
+phan_tu_chung = tap_hop_a_ky_tu.intersection(tap_hop_b_ky_tu)
+print("Tập hợp A:", tap_hop_a_ky_tu)
+print("Tập hợp B:", tap_hop_b_ky_tu)
+print("Các phần tử chung của A và B:", phan_tu_chung)
