@@ -1,0 +1,5 @@
+x = int(input("Nhập số thứ nhất: "))
+y = int(input("Nhập số thứ hai: "))
+tap_x = set(str(x))
+tap_y = set(str(y))
+print("Chữ số chung:", tap_x & tap_y)

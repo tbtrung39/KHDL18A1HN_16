@@ -1,0 +1,6 @@
+list1 = ["a1", "a2", "a3"]
+list2 = ["ten1", "ten2", "ten3"]
+d = {}
+for i in range(len(list1)):
+    d[list1[i]] = list2[i]
+print(d)
