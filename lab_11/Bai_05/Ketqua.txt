@@ -1,0 +1,3 @@
+103 Le Van C 9.5
+102 Tran Van B 9.0
+101 Nguyen Van A 8.0
