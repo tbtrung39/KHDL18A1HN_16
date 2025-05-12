@@ -1,0 +1,15 @@
+# main.py
+
+import my_square
+
+def main():
+    a = float(input("Nhập độ dài cạnh hình vuông: "))
+    
+    chu_vi = my_square.ChuViHinhVuong(a)
+    dien_tich = my_square.Dien_tich_hinh_vuong(a)
+
+    print(f"Chu vi hình vuông là: {chu_vi}")
+    print(f"Diện tích hình vuông là: {dien_tich}")
+
+if __name__ == "__main__":
+    main()
