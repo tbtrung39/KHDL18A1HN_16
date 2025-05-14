@@ -1,0 +1,17 @@
+from datetime import datetime
+def date_diff(date1, date2):
+    delta = abs(date2 - date1)
+    years = delta.days // 365
+    months = (delta.days % 365) // 30
+    days = (delta.days % 365) % 30
+    return years, months, days
+
+try:
+    s1 = input("Nhập ngày thứ nhất (dd-mm-yyyy): ")
+    s2 = input("Nhập ngày thứ hai (dd-mm-yyyy): ")
+    d1 = datetime.strptime(s1, "%d-%m-%Y")
+    d2 = datetime.strptime(s2, "%d-%m-%Y")
+    y, m, d = date_diff(d1, d2)
+    print(f"Hai ngày cách nhau: {y} năm, {m} tháng, {d} ngày")
+except Exception as e:
+    print("Lỗi:", e)
