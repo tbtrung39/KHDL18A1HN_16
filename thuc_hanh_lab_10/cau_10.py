@@ -1,0 +1,13 @@
+import sys
+sys.path.append("C://KHDL18A1HN_712//bai_tap_thuc_hanh/cau_10.py")
+import sys
+sys.path.append("C://KHDL18A1HN_712//bai_tap_thuc_hanh/cau_10.py")
+
+from my_Triangle import is_TamGiac,S_TamGiac,ChuViTamGiac
+from my_Square import ChuViHinhvuong,Dien_tich_hinh_vuong
+
+print(is_TamGiac(3, 4, 5))
+print(ChuViHinhvuong(6))
+print(S_TamGiac(4,5,6))
+print(Dien_tich_hinh_vuong(5))
+print(ChuViTamGiac(3,4,5))
