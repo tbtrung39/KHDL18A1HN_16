@@ -1,0 +1,12 @@
+def phep_tinh(a, b):
+    print(f"{a} + {b} = {a + b}")
+    print(f"{a} - {b} = {a - b}")
+    print(f"{a} * {b} = {a * b}")
+    if b != 0:
+        print(f"{a} / {b} = {a / b}")
+    else:
+        print("Không thể chia cho 0.")
+
+a = float(input("Nhập số a: "))
+b = float(input("Nhập số b: "))
+phep_tinh(a, b)
