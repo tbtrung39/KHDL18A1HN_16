@@ -1,0 +1,9 @@
+try:
+    d = int(input("Ngày: "))
+    m = int(input("Tháng: "))
+    y = int(input("Năm: "))
+    date = datetime(y, m, d)
+    week_number = date.isocalendar()[1]
+    print(f"Ngày {date.strftime('%d-%m-%Y')} thuộc tuần thứ {week_number}")
+except Exception as e:
+    print("Lỗi:", e)
