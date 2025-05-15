@@ -1,0 +1,12 @@
+import pandas as pd
+data = {
+    "Mã NV": ["NV01", "NV02", "NV03", "NV04"],
+    "Tên NV": ["Nguyen Van A", "Tran Thi B", "Le Van C", "Pham Thi D"],
+    "Chức vụ": ["TP", "PP", "NV", "NV"],
+    "Hệ số lương": [3.2, 2.5, 2.0, 2.8],
+    "Lương": [4768000, 3725000, 2980000, 4172000],
+    "Phụ cấp": [1000000, 700000, 300000, 300000],
+    "Thực lĩnh": [5768000, 4425000, 3280000, 4472000]
+}
+df = pd.DataFrame(data)
+print(df)
