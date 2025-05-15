@@ -1,0 +1,11 @@
+import pandas as pd
+data = {
+    "Mã SV": ["SV01", "SV02", "SV03", "SV04", "SV05"],
+    "Họ tên": ["Nguyen Van A", "Tran Thi B", "Le Van C", "Pham Thi D", "Hoang Van E"],
+    "TB": [8.0, 7.5, 6.0, 9.0, 5.0],
+    "RL": [9.0, 8.5, 7.0, 10.0, 6.0],
+    "TL": [8.5, 8.0, 6.5, 9.5, 5.5]
+}
+df = pd.DataFrame(data)
+df.to_csv("ds_sinhvien.csv", index=False, encoding='utf-8-sig')
+print("Đã lưu file ds_sinhvien.csv")
